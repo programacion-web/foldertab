@@ -1,0 +1,8 @@
+<zimlet name="com_zimbra_folderana" version="1.0" label="${msg.label}" description="Create a simple folders tools.">
+    <include>com_zimbra_folderana.js</include>
+    <includeCSS>folderana.css</includeCSS>
+    <handlerObject>com_zimbra_folderana_HandlerObject</handlerObject>
+    <zimletPanelItem label="${msg.folderana_label}" icon="folderanaZimletIcon">
+      <toolTipText>${msg.folderana_tooltip}</toolTipText>
+   </zimletPanelItem>
+</zimlet>
